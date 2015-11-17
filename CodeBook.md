@@ -20,6 +20,7 @@ Overview of tidyit dataframe
 The structure of the dataframe tidyit is as follows:
 
 'data.frame':	180 obs. of  68 variables:
+
  $ activity_id                          : chr  "Laying" "Laying" "Laying" "Laying" ...
  
  $ subject_id                           : int  1 2 3 4 5 6 7 8 9 10 ...
