@@ -1,4 +1,5 @@
-###script run_analysis
+###
+###script run_analysis.R
 ###
 ###Get file to current directory
 WD <- getwd()
