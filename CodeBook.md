@@ -1,6 +1,5 @@
 ==================================================================
-Script run_analysis.R 
-submitted for Getting and Cleaning Data Class
+Codeboke for script run_analysis.R 
 ==================================================================
 This CodeBook.md file describes the variables that were used to process the raw data contained in the data set described below, and the output variables in the output text file. The purpose of the script run_analysis.R is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
@@ -19,7 +18,7 @@ The one R script called run_analysis.R that does the following.
 Overview of tidyit dataframe
 ============================ 
 The structure of the dataframe tidyit is as follows:
-====================================================
+
 'data.frame':	180 obs. of  68 variables:
  $ activity_id                          : chr  "Laying" "Laying" "Laying" "Laying" ...
  $ subject_id                           : int  1 2 3 4 5 6 7 8 9 10 ...
@@ -27,8 +26,8 @@ The structure of the dataframe tidyit is as follows:
  $ avg2tBodyAccmeanDimensionYid2        : num  -0.0405 -0.0182 -0.019 -0.015 -0.0183 ...
  ....
  
- Description of the variables in the tidyit dataframe
- ====================================================
+ Description of the variables in the tidyit dataframe:
+ 
  The first column is the activity_id, which is the activity name from the raw dataset. 
  The second column is the subject_id, which is the number identifier of the subject.
  The 3 to 68 columns are the averaged data, as identified in the following data table:
@@ -138,7 +137,7 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value
 std(): Standard deviation
  
-Not used features included in the original data set 
+Not-used-features included in the original data set 
 ===================================================
  The additional vectors obtained by averaging the signals in a signal window sample were not used in this tidy set. These are used on the angle() variable:
 
@@ -156,14 +155,14 @@ Raw data from the following dataset:
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-==================================================================
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-==================================================================
+
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
