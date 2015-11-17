@@ -1,5 +1,5 @@
 ==================================================================
-Codeboke for script run_analysis.R 
+Codebook for script run_analysis.R 
 ==================================================================
 This CodeBook.md file describes the variables that were used to process the raw data contained in the data set described below, and the output variables in the output text file. The purpose of the script run_analysis.R is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
@@ -158,7 +158,7 @@ Version 1.0
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
