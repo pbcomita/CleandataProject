@@ -21,10 +21,14 @@ The structure of the dataframe tidyit is as follows:
 
 'data.frame':	180 obs. of  68 variables:
  $ activity_id                          : chr  "Laying" "Laying" "Laying" "Laying" ...
+ 
  $ subject_id                           : int  1 2 3 4 5 6 7 8 9 10 ...
+ 
  $ avg1tBodyAccmeanDimensionXid1        : num  0.222 0.281 0.276 0.264 0.278 ...
+ 
  $ avg2tBodyAccmeanDimensionYid2        : num  -0.0405 -0.0182 -0.019 -0.015 -0.0183 ...
- ....
+ 
+ etc....
  
  Description of the variables in the tidyit dataframe:
  
@@ -100,7 +104,7 @@ The structure of the dataframe tidyit is as follows:
                avg66fBodyBodyGyroJerkMagstdid543 = mean(fBodyBodyGyroJerkMagstdid543)
                
 =================================================================
-The features of the dataset were from the original data set and are described here. Only the variables that estimated the mean value (mean) and the standard deviation (std) are used. These are abbreviated in the column names for simplicity. 
+The features of the dataset were from the original data set and are described here. Only the variables that estimated the mean value (mean) and the standard deviation (std) are used. Because these variables are averages, the units are the same as the original data, which is described below. These are abbreviated in the column names for simplicity. 
                
 Feature Selection 
 =================
@@ -115,26 +119,43 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
-fBodyGyroJerkMag
+
+fBodyGyroJerkMag 
 
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
+
 std(): Standard deviation
  
 Not-used-features included in the original data set 
@@ -142,10 +163,15 @@ Not-used-features included in the original data set
  The additional vectors obtained by averaging the signals in a signal window sample were not used in this tidy set. These are used on the angle() variable:
 
 gravityMean
+
 tBodyAccMean
+
 tBodyAccJerkMean
+
 tBodyGyroMean
+
 tBodyGyroJerkMean
+
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
