@@ -34,8 +34,16 @@ The structure of the dataframe tidyit is as follows:
  Description of the variables in the tidyit dataframe:
  
  The first column is the activity_id, which is the activity name from the raw dataset. 
- The second column is the subject_id, which is the number identifier of the subject.
- The 3 to 68 columns are the averaged data, as identified in the following data table:
+ These are one of the six: 
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+ 
+ The second column is the subject_id, which is the number identifier of the subject (numbered 1-30).
+ The 3 to 68 columns are the averaged data. The are descriptive names which identify the data measurement. The average is  labeled avg followed by unique number id, then the data measurement descriptor, as identified in the following data table:
  
                avg1tBodyAccmeanDimensionXid1 = mean(tBodyAccmeanDimensionXid1),
                avg2tBodyAccmeanDimensionYid2 = mean(tBodyAccmeanDimensionYid2),
